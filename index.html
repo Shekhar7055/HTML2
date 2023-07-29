@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div_1{
+            border: 1px solid red;
+            border-radius: 30px;
+        }
+        .div_1_a{
+            border: 2px solid blueviolet ;
+        }
+        #forid{
+            background-color: rgb(197, 197, 148);
+        }
+    </style>
+</head>
+<body>
+    <h1>HTML Class Attribute</h1>
+    <div class="div_1">
+        <h2>Syntax for class -> write a period(.) character, followed by a class name in a style sheet, 
+            then define a css property within a curly braces {}.
+        </h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur et iure in tempora ratione 
+            sapiente,
+        </p>
+
+        <p>
+            dolorum est tempore provident nemo accusamus ex at non excepturi perspiciatis ullam rerum praesentium sit.
+        </p>
+    </div>
+
+    <div>
+        <h3 class="div_1">HTML can belong to more than one class or multiple </h3>
+        <h3 class="div_1">To define multiple classes seperates the class names with a space</h3>
+        <h3 class="div_1_a">To Change</h3>
+    </div>
+
+
+    <div id="forid">
+        <h1>Id Attribute is used to specify a unique id for an html element.
+            You cannot have more than one element with the same id in an html document.
+            id must be unique within the html element.
+        </h1>
+        <h2>Syntax for id -> write a period(#) character, followed by a id name in a style sheet, 
+            then define a css property within a curly braces {}.</h2>
+    </div>
+    <h1>Difference between id and class -> A class name can be used in multiple html element, while an id must only be used by one html element
+        within the page.</h1>
+
+
+
+        <form>
+         
+            <label>
+                <select>
+                    <option>Contact Us</option>
+                    <option value="">Carrer</option>
+                    <option value="">About Us</option>
+                </select>
+            </label>
+
+            <br>
+            <label for="name">Name</label><br>
+            <input type="checkbox" id="name" name="name"><br>
+
+            <label for="class">Class</label><br>
+            <input type="radio" id="class" name="class"><br>
+
+            <label for="mobile">Mobile No.</label><br>
+            <input type="number" id="mobile" name="mobile"><br>
+
+            <label for="add">Address</label><br>
+            <input type="text" id="add" name="add"><br>
+
+            <label for="add">Password</label><br>
+            <input type="password" id="add" name="add"><br>
+
+            <input type="submit" onclick="SubmitEvent">
+
+            
+
+        </form>
+
+        <textarea rows="30" cols="20">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam repellat beatae odit aliquid, magnam debitis harum qui corrupti alias,
+             tempore illum similique ullam quod earum? Nobis fugiat vel error aut!
+        </textarea>
+        <button type="button" onclick="alert('Hello World!')">Click Me!</button>
+</body>
+</html>
